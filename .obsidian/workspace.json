@@ -163,16 +163,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyber Security - Practice/Practice  - OpenVAS.md",
+                "file": "Cyber Security/Defense/Defensive Tooling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Practice  - OpenVAS"
+              "title": "Defensive Tooling"
+            }
+          },
+          {
+            "id": "9938894472cf8995",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cyber Security/Security Principles/CIA & DAD Triads.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CIA & DAD Triads"
+            }
+          },
+          {
+            "id": "a9958ee15a8b63c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Security Models - Fundamental Concepts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Security Models - Fundamental Concepts"
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -347,10 +375,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "29e36aa5da8323e1",
+  "active": "a9958ee15a8b63c8",
   "lastOpenFiles": [
-    "Image Trunk/Pasted image 20261010185258.png",
+    "Cyber Security/Security Principles/CIA & DAD Triads.md",
+    "Security Models - Fundamental Concepts.md",
+    "Cyber Security/Security Principles",
+    "Cyber Security/Defense/Defensive Tooling.md",
     "Cyber Security - Practice/Practice  - OpenVAS.md",
+    "Image Trunk/Pasted image 20261010185258.png",
     "Image Trunk",
     "Image Trunk/Pasted image 20261010212216.png",
     "Image Trunk/Pasted image 20261010211241.png",
@@ -358,7 +390,6 @@
     "Image Trunk/Pasted image 20261010210206.png",
     "Image Trunk/Pasted image 20261010210031.png",
     "Image Trunk/Pasted image 20261010204529.png",
-    "Defensive Tooling.md",
     "Image Trunk/Pasted image 20261010163820.png",
     "Image Trunk/Pasted image 20261010175234.png",
     "Cyber Security - Practice",
