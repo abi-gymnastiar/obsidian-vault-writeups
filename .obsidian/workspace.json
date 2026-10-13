@@ -275,12 +275,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentest - Web.md",
+                "file": "Cyber Security - Practice/Practice  - OpenVAS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pentest - Web"
+              "title": "Practice  - OpenVAS"
             }
           }
         ],
@@ -461,10 +461,16 @@
   },
   "active": "d1aa0de5366e0beb",
   "lastOpenFiles": [
-    "Reverse Shells.md",
+    "Image Trunk/Pasted image 20261010163820.png",
+    "Image Trunk/Pasted image 20261010175234.png",
+    "Image Trunk/Pasted image 20261010143753.png",
+    "Image Trunk/Pasted image 20261009235159.png",
+    "Cyber Security - Practice/Practice  - OpenVAS.md",
+    "Welcome.md",
+    "Red/Cipher.md",
+    "Red/Pentest - Web.md",
+    "Red/Reverse Shells.md",
     "Cyber Security/Defense/Defensive Tooling.md",
-    "Pentest - Web.md",
-    "Cipher.md",
     "Cyber Security/Security Principles/OWASP Top 10 2025.md",
     "Red",
     "Cyber Security/Security Principles/Zero Trust vs. Trust but Verify.md",
@@ -472,7 +478,6 @@
     "Cyber Security/Security Principles/Security Models - Fundamental Concepts.md",
     "Cyber Security/Security Principles/CIA & DAD Triads.md",
     "Cyber Security/Security Principles",
-    "Cyber Security - Practice/Practice  - OpenVAS.md",
     "Image Trunk/Pasted image 20261010185258.png",
     "Image Trunk",
     "Image Trunk/Pasted image 20261010212216.png",
@@ -481,11 +486,7 @@
     "Image Trunk/Pasted image 20261010210206.png",
     "Image Trunk/Pasted image 20261010210031.png",
     "Image Trunk/Pasted image 20261010204529.png",
-    "Image Trunk/Pasted image 20261010163820.png",
-    "Image Trunk/Pasted image 20261010175234.png",
     "Cyber Security - Practice",
-    "Pasted image 20261010163940.png",
-    "Welcome.md",
     "Cyber Security/Defense/Security Solutions/Vulnaribility Scanner.md",
     "Cyber Security/Defense/Security Solutions/SIEM.md",
     "Cyber Security/Defense/Security Solutions/IDS - Snort.md",

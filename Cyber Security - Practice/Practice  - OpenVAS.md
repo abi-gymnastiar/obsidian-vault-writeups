@@ -5,8 +5,8 @@
 - OpenVAS will be deployed on a docker.
 
 ## Hosts
-- yipserver: 192.168.0.251 (enp3s0), 100.124.36.1 (tailscale0) - Used as target
-- yipdesktop: 192.168.0.10 (enp3s0), 100.94.1.7 (tailscale0) - Used as scanner
+- target: 192.168.0.xxx (enp3s0), 100.124.xxx.xxx (tailscale0) - Used as target
+- scanner: 192.168.0.xxx (enp3s0), 100.94.xxx.xxx (tailscale0) - Used as scanner
 
 ## Pre-Scan
 1. Make sure yipdesktop and yipserver are online and connected in the same local network
@@ -28,13 +28,13 @@
 4. There are two results that is not considered as Log. One low severity and one medium severity.
 5. Looking at the low severity, it turns out to be a TCP timestamp vulnerability.
    ![[Pasted image 20261010210210.png]]
-   Seems like impact of this vulnerability is that the uptime of the remote host can sometimes be computed. After researching more about this RFC1312, seems like there is no need for me to address it on my homelab. Usually, this becomes more of a concern on systems governed by regulatory compliance and public-facing network edge devices. Finding out the time my homelab last restarted is not important.
+   Seems like impact of this vulnerability is that the uptime of the remote host can sometimes be computed. After researching more about this **RFC 1312**, seems like there is no need for me to address it on my homelab. Usually, this becomes more of a concern on systems governed by regulatory compliance and public-facing network edge devices. Finding out the time my homelab last restarted is not important.
 6. Looking at the other result, shows that it is clasified as a medium severity. Turns out to be "Cleartext Transmission of Sensitive Information via HTTP"
    ![[Pasted image 20261010212216.png]]
-   After closer inspection, port 8083 is from my qbittorrent web ui client. After researching more about this (CWE-319), having plaintext credentials is a risk if the WebUI is configured to use plain HTTP instead of HTTPS/TLS. Network Sniffers can allow anyone sharing the same local network, public Wi-Fi, or compromised router ti intercept traffic.
+   After closer inspection, port 8083 is from my qbittorrent web ui client. After researching more about this (CWE-319), having plaintext credentials is a risk if the WebUI is configured to use plain HTTP instead of HTTPS/TLS. Network Sniffers can allow anyone sharing the same local network, public Wi-Fi, or compromised router to intercept traffic.
 7. Workaround for CWE-319 on my qbittorrent client is as simple as to close the port and use a reverse proxy (in my case nginx proxy manager) to route the traffic exclusively thru HTTPS into the shared docker network.
    Before:
-   User (Browser) ── HTTP (Cleartext) ──> Host Port 8080 ──> qBittorrent Container
+   User (Browser) ── HTTP (Cleartext) ──> Host Port 8083 ──> qBittorrent Container
    After:
    User (Browser) ──HTTPS (Encrypted) ──> Nginx (Host Port 443) ── Internal Docker Network ──> qBittorrent Container
 
