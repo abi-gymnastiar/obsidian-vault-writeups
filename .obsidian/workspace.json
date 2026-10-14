@@ -331,16 +331,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Writeup - PicoCTF - SUDO MAKE ME A SANDWICH.md",
+                "file": "CTF Writeups/Writeup PicoCTF - SUDO MAKE ME A SANDWICH.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Writeup - PicoCTF - SUDO MAKE ME A SANDWICH"
+              "title": "Writeup PicoCTF - SUDO MAKE ME A SANDWICH"
+            }
+          },
+          {
+            "id": "46103a864803820e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF Writeups/Writeup PicoCTF - SUDO MAKE ME A SANDWICH.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Writeup PicoCTF - SUDO MAKE ME A SANDWICH"
+            }
+          },
+          {
+            "id": "d4dadf6fe396b092",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF Writeups/Writeup PicoCTF - Quizploit.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Writeup PicoCTF - Quizploit"
             }
           }
         ],
-        "currentTab": 23
+        "currentTab": 25
       }
     ],
     "direction": "vertical"
@@ -515,22 +543,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "816334af54a53aa4",
+  "active": "d4dadf6fe396b092",
   "lastOpenFiles": [
     "CTF Writeups/Writeup PicoCTF - Old Sessions.md",
+    "Image Trunk/Pasted image 20261014222133.png",
+    "Image Trunk/Pasted image 20261014214837.png",
+    "Image Trunk/Pasted image 20261014214642.png",
+    "Image Trunk/Pasted image 20261014214001.png",
+    "Image Trunk/Pasted image 20261014213427.png",
+    "Image Trunk/Pasted image 20261014212531.png",
+    "CTF Writeups/Writeup PicoCTF - Quizploit.md",
+    "Image Trunk/Pasted image 20261014223336.png",
+    "Image Trunk/Pasted image 20261014223243.png",
+    "Image Trunk/Pasted image 20261014222904.png",
+    "Image Trunk/Pasted image 20261014222553.png",
+    "CTF Writeups/Writeup PicoCTF - SUDO MAKE ME A SANDWICH.md",
     "CTF Writeups/Writeup PicoCTF - MY GIT.md",
+    "Untitled 1.md",
     "CTF Writeups/Writeup PicoCTF - Undo.md",
-    "Writeup - PicoCTF - SUDO MAKE ME A SANDWICH.md",
-    "Image Trunk/Pasted image 20261014203426.png",
-    "Image Trunk/Pasted image 20261014203335.png",
-    "Image Trunk/Pasted image 20261014203137.png",
-    "Image Trunk/Pasted image 20261014203001.png",
-    "Pasted image 20261014202951.png",
-    "Pasted image 20261014202933.png",
-    "Image Trunk/Pasted image 20261014202909.png",
-    "Pasted image 20261014200316.png",
-    "Pasted image 20261014195920.png",
-    "Image Trunk/Pasted image 20261014020324.png",
     "CTF Writeups",
     "Cyber Security - Practice/Practice  - OpenVAS.md",
     "Welcome.md",
