@@ -1,5 +1,7 @@
 Title: MY GIT
+
 Category: General Skills
+
 Difficulty: Easy
 
 ## Description
