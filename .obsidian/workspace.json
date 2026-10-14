@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF Writeups/Writeup PicoCTF - Old Sessions.md",
+                "file": "CTF Writeups/Writeup PicoCTF - MY GIT.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Writeup PicoCTF - Old Sessions"
+              "title": "Writeup PicoCTF - MY GIT"
             }
           }
         ]
@@ -198,6 +198,11 @@
   },
   "active": "e599d479b1e906e1",
   "lastOpenFiles": [
+    "CTF Writeups/Writeup PicoCTF - Old Sessions.md",
+    "CTF Writeups/Writeup PicoCTF - Quizploit.md",
+    "CTF Writeups/Writeup PicoCTF - StegoRSA.md",
+    "CTF Writeups/Writeup PicoCTF - Undo.md",
+    "CTF Writeups/Writeup PicoCTF - SUDO MAKE ME A SANDWICH.md",
     "CTF Writeups/Writeup PicoCTF - MY GIT.md",
     "Red/Reverse Shells.md",
     "Red/Pentest - Web.md",
@@ -206,12 +211,7 @@
     "Cyber Security/Defense/Security Solutions/IDS - Snort.md",
     "Cyber Security/Defense/Security Solutions/Firewall - Linux iptables.md",
     "Cyber Security/Defense/Security Solutions/Firewall.md",
-    "CTF Writeups/Writeup PicoCTF - StegoRSA.md",
-    "CTF Writeups/Writeup PicoCTF - SUDO MAKE ME A SANDWICH.md",
-    "CTF Writeups/Writeup PicoCTF - Undo.md",
     "Image Trunk/Pasted image 20261014013801.png",
-    "CTF Writeups/Writeup PicoCTF - Quizploit.md",
-    "CTF Writeups/Writeup PicoCTF - Old Sessions.md",
     "Pasted image 20261015002907.png",
     "Image Trunk/Pasted image 20261014222133.png",
     "Image Trunk/Pasted image 20261014214837.png",
