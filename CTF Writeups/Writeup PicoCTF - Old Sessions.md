@@ -9,14 +9,15 @@ This then allows an attacker using the same browser later to access the user’s
 
 ## Attempts
 Provided with the link, I try to access it via browser. The hyperlink was http://chatelaine.cylabacademy.net:19657/ but the opened link redirected me to the `/login` page. Let's register an account.
-![[Pasted image 20261014202909.png]]
+![alt](../Image%20Trunk/Pasted%20image%2020261014202909.png)
 
-![[Pasted image 20261014203001.png]]
+
+![Pasted image 20261014203001.png](../Image%20Trunk/Pasted%20image%2020261014203001.png)
 From the comments, I notice the mention of `/sessions`. Appending it to the URL results in a list of the session history. One for `admin` and the other for `jimi`, which is my own session right now. There is also a variable `_permanent` which is set to be `true`. Interesting.
-![[Pasted image 20261014203137.png]]
+![Pasted image 20261014203137.png](../Image%20Trunk/Pasted%20image%2020261014203137.png)
 I tried copying the admin's session value into the browser's session inside cookie.
-![[Pasted image 20261014203335.png]]
-Navigating back to the `/` page results in me logged in as `admin`. The flag is also printed there as well.![[Pasted image 20261014203426.png]]
+![Pasted image 20261014203335.png](../Image%20Trunk/Pasted%20image%2020261014203335.png)
+Navigating back to the `/` page results in me logged in as `admin`. The flag is also printed there as well.![Pasted image 20261014203426.png](../Image%20Trunk/Pasted%20image%2020261014203426.png)
 
 ## Flag
 academy{s3t_s3ss10n_3xp1rat10n5_3b59378b}

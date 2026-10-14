@@ -13,13 +13,13 @@ Check the README to get your flag!
 
 ## Attempt
 Clonned the challenge repo using the provided password. Take a look at the directory seems to only have a .git and a README.md files. looking at the git log also shows only one commit. branch is also only master.
-![[Pasted image 20261014014858.png]]
+![alt](../Image%20Trunk/Pasted%20image%2020261014014858.png)
 Seems like I only need to push flag.txt using `root:root@academy`. Just change the git username and email I guess
 ```
 git config user.name "root" && git config user.eamil "root@academy"
 ```
 Create a flag.txt, commit and push to master.
-![[Pasted image 20261014020309.png]]
+![alt](../Image%20Trunk/Pasted%20image%2020261014020309.png)
 Flag is printed in the git push output.
 
 ## Flag
