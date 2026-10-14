@@ -20,3 +20,7 @@ Navigating back to the `/` page results in me logged in as `admin`. The flag is 
 
 ## Flag
 academy{s3t_s3ss10n_3xp1rat10n5_3b59378b}
+
+## Reflections
+- It is important to set the session expirations.
+- Not to store session history somewhere the user might have access to.
