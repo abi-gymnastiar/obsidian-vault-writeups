@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF Writeups/Writeup PicoCTF - MY GIT.md",
+                "file": "Cyber Security - Practice/Practice  - OpenVAS.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Writeup PicoCTF - MY GIT"
+              "title": "Practice  - OpenVAS"
             }
           }
         ]
@@ -198,12 +198,12 @@
   },
   "active": "e599d479b1e906e1",
   "lastOpenFiles": [
+    "CTF Writeups/Writeup PicoCTF - MY GIT.md",
     "CTF Writeups/Writeup PicoCTF - Old Sessions.md",
     "CTF Writeups/Writeup PicoCTF - Quizploit.md",
     "CTF Writeups/Writeup PicoCTF - StegoRSA.md",
     "CTF Writeups/Writeup PicoCTF - Undo.md",
     "CTF Writeups/Writeup PicoCTF - SUDO MAKE ME A SANDWICH.md",
-    "CTF Writeups/Writeup PicoCTF - MY GIT.md",
     "Red/Reverse Shells.md",
     "Red/Pentest - Web.md",
     "Red/Cipher.md",
