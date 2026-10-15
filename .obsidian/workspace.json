@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF Writeups/Writeup TryHackMe - FoolsMate.md",
+                "file": "CTF Writeups/Writeup TryHackMe - Fools Mate.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Writeup TryHackMe - FoolsMate"
+              "title": "Writeup TryHackMe - Fools Mate"
             }
           }
         ],
@@ -253,14 +253,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9d8d339432583ef5",
+  "active": "91aafd27874ac4dd",
   "lastOpenFiles": [
     "Image Trunk/Pasted image 20261015225836.png",
     "Image Trunk/Pasted image 20261015225325.png",
     "Image Trunk/Pasted image 20261015224043.png",
     "Image Trunk/Pasted image 20261015223951.png",
     "Red/Cyber Kill Chain.md",
-    "CTF Writeups/Writeup TryHackMe - FoolsMate.md",
+    "CTF Writeups/Writeup TryHackMe - Fools Mate.md",
     "CTF Writeups/Writeup PicoCTF - StegoRSA.md",
     "Cover Letter.md",
     "Red/Penetration Testing.md",
