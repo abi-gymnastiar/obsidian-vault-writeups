@@ -239,15 +239,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9d8d339432583ef5",
+  "active": "91aafd27874ac4dd",
   "lastOpenFiles": [
-    "Red/Penetration Testing.md",
+    "CTF Writeups/Writeup PicoCTF - StegoRSA.md",
     "Red/Cyber Kill Chain.md",
+    "Cover Letter.md",
+    "Red/Penetration Testing.md",
     "Red/THM - Guided Pentest/Pentest - Infrastructure.md",
     "Red/THM - Guided Pentest/Pentest - Web.md",
     "Image Trunk/Pasted image 20261015163213.png",
     "Red/THM - Guided Pentest",
-    "CTF Writeups/Writeup PicoCTF - StegoRSA.md",
     "file:/home/jimi/Downloads/Abiansyah-Gymnastiar_resume_2026.pdf",
     "file:/home/jimi/Projects/portfolio/api/media/resume.pdf",
     "file:/home/jimi/Downloads/THM-9S6HBDOJSU.pdf",
@@ -285,7 +286,6 @@
     "Cyber Security/Security Principles/CIA & DAD Triads.md",
     "Cyber Security/Security Principles",
     "Image Trunk",
-    "Cyber Security - Practice",
-    "Cyber Security/Defense/Security Solutions/Vulnaribility Scanner.md"
+    "Cyber Security - Practice"
   ]
 }
