@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentest - Infrastructure.md",
+                "file": "Red/THM - Guided Pentest/Pentest - Infrastructure.md",
                 "mode": "source",
                 "source": false
               },
@@ -213,9 +213,9 @@
   },
   "active": "10737786ef60a176",
   "lastOpenFiles": [
-    "Image Trunk/Pasted image 20261015163213.png",
     "Red/THM - Guided Pentest/Pentest - Web.md",
-    "Pentest - Infrastructure.md",
+    "Red/THM - Guided Pentest/Pentest - Infrastructure.md",
+    "Image Trunk/Pasted image 20261015163213.png",
     "Red/THM - Guided Pentest",
     "CTF Writeups/Writeup PicoCTF - StegoRSA.md",
     "file:/home/jimi/Downloads/Abiansyah-Gymnastiar_resume_2026.pdf",
@@ -243,7 +243,6 @@
     "Image Trunk/Pasted image 20261014213427.png",
     "Image Trunk/Pasted image 20261014212531.png",
     "Image Trunk/Pasted image 20261014223336.png",
-    "Image Trunk/Pasted image 20261014223243.png",
     "Untitled 1.md",
     "CTF Writeups",
     "Welcome.md",
