@@ -11,10 +11,14 @@
             "id": "e5827006cec98b77",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "CTF Writeups/Writeup TryHackMe - Basic Pentesting.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Writeup TryHackMe - Basic Pentesting"
             }
           }
         ]
@@ -194,10 +198,10 @@
   },
   "active": "e5827006cec98b77",
   "lastOpenFiles": [
+    "CTF Writeups/Writeup TryHackMe - Fools Mate.md",
+    "CTF Writeups/Writeup PicoCTF - Undo.md",
     "CTF Writeups/Writeup PicoCTF - MY GIT.md",
     "CTF Writeups/Writeup PicoCTF - SUDO MAKE ME A SANDWICH.md",
-    "CTF Writeups/Writeup PicoCTF - Undo.md",
-    "CTF Writeups/Writeup TryHackMe - Fools Mate.md",
     "CTF Writeups/Writeup TryHackMe - Basic Pentesting.md",
     "Image Trunk/Pasted image 20261016011030.png",
     "Image Trunk/Pasted image 20261016010916.png",
