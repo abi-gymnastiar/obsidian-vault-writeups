@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF Writeups/Writeup TryHackMe - Neighbour.md",
+                "file": "CTF Writeups/Writeup TryHackMe - Ninja Skills.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Writeup TryHackMe - Neighbour"
+              "title": "Writeup TryHackMe - Ninja Skills"
             }
           },
           {
@@ -255,9 +255,9 @@
   },
   "active": "7fbc7088cc52de97",
   "lastOpenFiles": [
+    "CTF Writeups/Writeup TryHackMe - Neighbour.md",
     "CTF Writeups/Writeup TryHackMe - Basic Pentesting.md",
     "CTF Writeups/Writeup TryHackMe - Fools Mate.md",
-    "CTF Writeups/Writeup TryHackMe - Neighbour.md",
     "CTF Writeups/Writeup TryHackMe - Whats Your Name?.md",
     "Image Trunk/Pasted image 20261018015817.png",
     "Image Trunk/Pasted image 20261018015612.png",
