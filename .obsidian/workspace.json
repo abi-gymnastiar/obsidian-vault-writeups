@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF Writeups/Writeup TryHackMe - Whats Your Name?.md",
+                "file": "CTF Writeups/Writeup TryHackMe - Neighbour.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Writeup TryHackMe - Whats Your Name?"
+              "title": "Writeup TryHackMe - Neighbour"
             }
           },
           {
@@ -253,8 +253,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9d8d339432583ef5",
+  "active": "7fbc7088cc52de97",
   "lastOpenFiles": [
+    "CTF Writeups/Writeup TryHackMe - Basic Pentesting.md",
+    "CTF Writeups/Writeup TryHackMe - Fools Mate.md",
+    "CTF Writeups/Writeup TryHackMe - Neighbour.md",
+    "CTF Writeups/Writeup TryHackMe - Whats Your Name?.md",
     "Image Trunk/Pasted image 20261018015817.png",
     "Image Trunk/Pasted image 20261018015612.png",
     "Image Trunk/Pasted image 20261018014714.png",
@@ -265,14 +269,9 @@
     "Image Trunk/Pasted image 20261017143443.png",
     "Image Trunk/Pasted image 20261017142756.png",
     "Image Trunk/Pasted image 20261017142730.png",
-    "Image Trunk/Pasted image 20261017142641.png",
-    "CTF Writeups/Writeup TryHackMe - Fools Mate.md",
     "CTF Writeups/Writeup TryHackMe - Ninja Skills.md",
-    "CTF Writeups/Writeup TryHackMe - Whats Your Name?.md",
-    "CTF Writeups/Writeup TryHackMe - Neighbour.md",
     "Red/Pentesting Frameworks.md",
     "Red/THM - Guided Pentest/Pentest - Web.md",
-    "CTF Writeups/Writeup TryHackMe - Basic Pentesting.md",
     "Cyber Security/Security Principles/CIA & DAD Triads.md",
     "Cyber Security/Security Principles/OWASP Top 10 2025.md",
     "Cyber Security/Security Principles/Zero Trust vs. Trust but Verify.md",
