@@ -4,109 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "de1bc07136d714df",
+        "id": "b90f34018197ad99",
         "type": "tabs",
         "children": [
           {
-            "id": "e5827006cec98b77",
+            "id": "f3715fb6f2495842",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF Writeups/Writeup TryHackMe - Basic Pentesting.md",
+                "file": "Red/Sniffing Attack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Writeup TryHackMe - Basic Pentesting"
+              "title": "Sniffing Attack"
             }
           },
           {
-            "id": "5773bece2c05ff98",
+            "id": "c488caadc290cb36",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF Writeups/Writeup TryHackMe - Neighbour.md",
+                "file": "Red/Man in The Middle (MITM) Attack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Writeup TryHackMe - Neighbour"
+              "title": "Man in The Middle (MITM) Attack"
             }
           },
           {
-            "id": "84376263795068a5",
+            "id": "1fcf1cf65dae6371",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF Writeups/Writeup TryHackMe - Ninja Skills.md",
+                "file": "Red/Password Attack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Writeup TryHackMe - Ninja Skills"
+              "title": "Password Attack"
             }
           },
           {
-            "id": "7fbc7088cc52de97",
+            "id": "2d2b34ab97aa9f17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF Writeups/Writeup TryHackMe - Ninja Skills.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Writeup TryHackMe - Ninja Skills"
-            }
-          },
-          {
-            "id": "812dbf8be79388d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Passive Reconnaissance.md",
+                "file": "Nmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Passive Reconnaissance"
-            }
-          },
-          {
-            "id": "83a1cf42f5c46623",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Red/Active Reconnaissance.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Active Reconnaissance"
-            }
-          },
-          {
-            "id": "7df374dc4ec1928a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Red/THM - Guided Pentest/Pentest - Web.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Pentest - Web"
+              "title": "Nmap"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -281,10 +239,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9d8d339432583ef5",
+  "active": "2d2b34ab97aa9f17",
   "lastOpenFiles": [
-    "Red/Passive Reconnaissance.md",
+    "Image Trunk/Pasted image 20261018200658.png",
+    "Nmap.md",
+    "Image Trunk/Pasted image 20261018200705.png",
+    "Red/Password Attack.md",
+    "Red/Man in The Middle (MITM) Attack.md",
+    "Red/Sniffing Attack.md",
+    "Red/THM - Guided Pentest/Pentest - Web.md",
+    "Cyber Security - Practice/Practice  - OpenVAS.md",
     "Red/Active Reconnaissance.md",
+    "Red/Passive Reconnaissance.md",
     "CTF Writeups/Writeup TryHackMe - Ninja Skills.md",
     "CTF Writeups/Writeup TryHackMe - Neighbour.md",
     "CTF Writeups/Writeup TryHackMe - Basic Pentesting.md",
@@ -298,10 +264,7 @@
     "Image Trunk/Pasted image 20261017143500.png",
     "Image Trunk/Pasted image 20261017143451.png",
     "Image Trunk/Pasted image 20261017143443.png",
-    "Image Trunk/Pasted image 20261017142756.png",
-    "Image Trunk/Pasted image 20261017142730.png",
     "Red/Pentesting Frameworks.md",
-    "Red/THM - Guided Pentest/Pentest - Web.md",
     "Cyber Security/Security Principles/CIA & DAD Triads.md",
     "Cyber Security/Security Principles/OWASP Top 10 2025.md",
     "Cyber Security/Security Principles/Zero Trust vs. Trust but Verify.md",
@@ -313,12 +276,6 @@
     "Cyber Security/Defense/Logs.md",
     "Cyber Security/Defense/Defensive Tooling.md",
     "Cyber Security/Defense/Incident Respone.md",
-    "CTF Writeups/Writeup PicoCTF - SUDO MAKE ME A SANDWICH.md",
-    "CTF Writeups/Writeup PicoCTF - Undo.md",
-    "CTF Writeups/Writeup PicoCTF - MY GIT.md",
-    "Red/Cyber Kill Chain.md",
-    "CTF Writeups/Writeup PicoCTF - StegoRSA.md",
-    "Cover Letter.md",
     "Red/THM - Guided Pentest",
     "file:/home/jimi/Downloads/Abiansyah-Gymnastiar_resume_2026.pdf",
     "file:/home/jimi/Projects/portfolio/api/media/resume.pdf",
