@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TryHackMe - TryHack3M Brick Heist.md",
+                "file": "CTF Writeups/TryHackMe - TryHack3M Brick Heist.md",
                 "mode": "source",
                 "source": true
               },
@@ -196,7 +196,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c00fdb34ae2b3e94",
+  "active": "9d8d339432583ef5",
   "lastOpenFiles": [
     "Image Trunk/Pasted image 20261020005826.png",
     "Image Trunk/Pasted image 20261020005625.png",
@@ -207,7 +207,7 @@
     "Image Trunk/Pasted image 20261019214559.png",
     "Image Trunk/Pasted image 20261019211521.png",
     "Welcome.md",
-    "TryHackMe - TryHack3M Brick Heist.md",
+    "CTF Writeups/TryHackMe - TryHack3M Brick Heist.md",
     "Red/OSINT.md",
     "Red/Passive Reconnaissance.md",
     "Red/Sniffing Attack.md",
