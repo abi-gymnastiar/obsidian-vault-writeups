@@ -27,10 +27,10 @@ Nmap done: 1 IP address (1 host up) scanned in 54.98 seconds
 There seems to be two web services hosted on this server. one HTTP and the other HTTPS.
 
 ### Port 80 - `http://bricks.thm`
-![](Image%20Trunk/Pasted%20image%2020261019211521.png)
+![](../Image%20Trunk/Pasted%20image%2020261019211521.png)
 
 ### Port 443 - `https://bricks.thm`
-![](Image%20Trunk/Pasted%20image%2020261019214559.png)
+![](../Image%20Trunk/Pasted%20image%2020261019214559.png)
 
 - Wappalyzer shows that it's a wordpress website.
 
@@ -58,30 +58,30 @@ After reading about it for a bit, turns out it is an injection vulnerability (OW
 ## Exploiting CVE-2024-25600
 We'll be using metasploit for this exploit.
 
-![](Image%20Trunk/Pasted%20image%2020261020001155.png)
+![](../Image%20Trunk/Pasted%20image%2020261020001155.png)
 
 After that we make sure to have the correct options for the payload (we'll be trying the default payload first).
 
-![](Image%20Trunk/Pasted%20image%2020261020001421.png)
+![](../Image%20Trunk/Pasted%20image%2020261020001421.png)
 
 then, simply run `exploit` to send the payload and hopefully we get the shell.
 
-![](Image%20Trunk/Pasted%20image%2020261020004637.png)
+![](../Image%20Trunk/Pasted%20image%2020261020004637.png)
 
 No luck :(
 
 Luckily, I found a proof of concept of the cve from this github repo: https://github.com/Chocapikk/CVE-2024-25600.git. Using the provided python script, we easily get the shell!
 
-![](Image%20Trunk/Pasted%20image%2020261020004833.png)
+![](../Image%20Trunk/Pasted%20image%2020261020004833.png)
 
 the first flag is in the `650c844110baced87e1606453b93f22a.txt` file.
 
 ## Suspicious process
 The second question is `What is the name of the suspicious process?`. We can find it using `systemctl` and pipe it to `grep running` or something.
 
-![](Image%20Trunk/Pasted%20image%2020261020005625.png)
+![](../Image%20Trunk/Pasted%20image%2020261020005625.png)
 
-![](Image%20Trunk/Pasted%20image%2020261020005826.png)
+![](../Image%20Trunk/Pasted%20image%2020261020005826.png)
 
 from here, the answer to the question is `nm-inet-dialog`. This also answers the next question, `What is the service name affiliated with the suspicious process?`, which is `ubuntu.service`.
 
