@@ -87,4 +87,33 @@ from here, the answer to the question is `nm-inet-dialog`. This also answers the
 
 ## Tracing the service
 
-Todo...
+![](../Image%20Trunk/Pasted%20image%2020261020214208.png)
+
+Looking at the `/lib/NetworkManager` directory we can see there is an inet.conf file which has some suspicious mining logs inside. So the answer to the next question, `What is the log file name of the miner instance?`, is `inet.conf`.
+
+There is also an interesting line there, `ID: 5757314e65474e5962484a4f656d787457544e424e574648555446684d3070735930684b616c70555a7a566b52335276546b686b65575248647a525a57466f77546b64334d6b347a526d685a6255313459316873636b35366247315a4d304531595564476130355864486c6157454a3557544a564e453959556e4a685246497a5932355363303948526a4a6b52464a7a546d706b65466c525054303d`.
+
+Using `Magic` operation from the CyberChef resulted in the following output form the following recipe:
+
+![](../Image%20Trunk/Pasted%20image%2020261020220116.png)
+
+Putting the output, `bc1qyk79fcp9hd5kreprce89tkh4wrtl8avt4l67qabc1qyk79fcp9had5kreprce89tkh4wrtl8avt4l67qa`, into the answer still resulted in an incorrect answer. Trying it as an address to find a crypto wallet also resulted in nothing.
+
+After closer inspection, this string is actually being repeated.
+
+![](../Image%20Trunk/Pasted%20image%2020261020220305.png)
+
+Using the first half (bc1qyk79fcp9hd5kreprce89tkh4wrtl8avt4l67qa) resulted in a correct answer. 
+
+## Tracing Transaction
+The last question is `The wallet address used has been involved in transactions between wallets belonging to which threat group?`.
+
+First, we can try tracing the transactions from the website such as https://www.blockonomics.co.
+
+![](../Image%20Trunk/Pasted%20image%2020261020221649.png)
+
+Searching deeper into this specific transaction, we can actually see the input address has been listed as an individual listed in https://ofac.treasury.gov/recent-actions/20240220.
+
+![](../Image%20Trunk/Pasted%20image%2020261020221955.png)
+
+We can alse see that the group name was `LockBit Ransomware Group`. Plugging `LockBit` as the answer resulted in correct answer!

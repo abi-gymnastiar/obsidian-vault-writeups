@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF Writeups/TryHackMe - TryHack3M Brick Heist (Uncomplete).md",
+                "file": "CTF Writeups/Writeup TryHackMe - TryHack3M Brick Heist.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "TryHackMe - TryHack3M Brick Heist (Uncomplete)"
+              "title": "Writeup TryHackMe - TryHack3M Brick Heist"
             }
           }
         ]
@@ -196,26 +196,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91aafd27874ac4dd",
+  "active": "c00fdb34ae2b3e94",
   "lastOpenFiles": [
+    "Image Trunk/Pasted image 20261020222103.png",
+    "CTF Writeups/Writeup TryHackMe - TryHack3M Brick Heist.md",
+    "Image Trunk/Pasted image 20261020221955.png",
+    "Image Trunk/Pasted image 20261020221649.png",
+    "Image Trunk/Pasted image 20261020220305.png",
+    "Image Trunk/Pasted image 20261020220116.png",
+    "Image Trunk/Pasted image 20261020214208.png",
+    "Image Trunk/Pasted image 20261020214121.png",
     "Image Trunk/Pasted image 20261020005826.png",
     "Image Trunk/Pasted image 20261020005625.png",
     "Image Trunk/Pasted image 20261020004833.png",
-    "Image Trunk/Pasted image 20261020004637.png",
-    "Image Trunk/Pasted image 20261020001421.png",
-    "Image Trunk/Pasted image 20261020001155.png",
-    "Image Trunk/Pasted image 20261019214559.png",
-    "Image Trunk/Pasted image 20261019211521.png",
     "Welcome.md",
-    "CTF Writeups/TryHackMe - TryHack3M Brick Heist (Uncomplete).md",
     "Red/OSINT.md",
     "Red/Passive Reconnaissance.md",
     "Red/Sniffing Attack.md",
     "OSINT - Search Engines & Web Tools.md",
     "Red/Nmap.md",
     "Red/Man in The Middle (MITM) Attack.md",
-    "Image Trunk/Pasted image 20261018200658.png",
-    "Image Trunk/Pasted image 20261018200705.png",
     "Red/Password Attack.md",
     "Red/THM - Guided Pentest/Pentest - Web.md",
     "Cyber Security - Practice/Practice  - OpenVAS.md",
@@ -225,7 +225,6 @@
     "CTF Writeups/Writeup TryHackMe - Basic Pentesting.md",
     "CTF Writeups/Writeup TryHackMe - Fools Mate.md",
     "CTF Writeups/Writeup TryHackMe - Whats Your Name?.md",
-    "Image Trunk/Pasted image 20261018015817.png",
     "Red/Pentesting Frameworks.md",
     "Cyber Security/Security Principles/CIA & DAD Triads.md",
     "Cyber Security/Security Principles/OWASP Top 10 2025.md",
