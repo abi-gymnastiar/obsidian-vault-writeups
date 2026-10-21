@@ -205,3 +205,17 @@ The fix is simple though. Turns out we can actually change the owner of the dire
 ![](../Image%20Trunk/Pasted%20image%2020261021234219.png)
 
 👽👍
+
+## SSH as root
+While the actual room is already done with the last flag. We actually still haven't SSH into the root yet. We can actually find root's private `id_rsa` within its directory. We can try this to login as root. 
+
+Turns out, we need to provide a passphrase for this private key as well. Which I tried to crack using john with rockyou.txt. But still no luck.
+
+## Exploiting `tar` to get root
+Looking on the gtfobins for tar, https://gtfobins.org/gtfobins/tar/, we can actually use the provided command to get the root easily.
+
+![](../Image%20Trunk/Pasted%20image%2020261022003656.png)
+
+![](../Image%20Trunk/Pasted%20image%2020261022003819.png)
+
+Nice!
