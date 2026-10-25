@@ -1,4 +1,6 @@
 - Link: https://tryhackme.com/room/recruitwebchallenge
+- Difficulty: Medium
+- Category: Web Exploitation
 
 ## Description
 **Recruit** has just launched its new recruitment portal, allowing HR staff to manage candidate applications and administrators to oversee hiring decisions. While the platform appears functional, management suspects that security may have been overlooked during development. Your task is to assess the application like a real attacker, mapping its structure, abusing exposed functionality, and exploiting vulnerabilities.
@@ -72,7 +74,7 @@ Some info about the site's tech stacks:
 
 ## Gaining Foothold
 ### Exploiting API
-Fetching a file from my hosted http server, `http://10.66.154.64/file.php?cv=http://192.168.130.147/mycv.html` resulted in response "Only local files are allowed". Which already contradicts the statement "The API supports fetching CVs from external URLs such as HTTP and HTTPS." from `/api.php`.
+Fetching a file from my hosted http server, `http://10.66.154.64/file.php?cv=http://192.168.130.147/mycv.html` resulted in response "Only local files are allowed".
 
 There is an interesting path `/mail` that, when visited, turns out to be a directory listing.
 
@@ -121,7 +123,7 @@ Recruitment Team
 May 14 09:32:14 recruit-server postfix/qmgr[1789]: 4F1A2203F: removed
 ```
 
-Looking into `config.php` to look for HR's credentials resulted in response 200 with empty body. This also confirmed the gobuster's `Size: 0` for that path. This could mean that the path might execute something on the server's side and does not show any output on the client side.
+Looking into `/config.php` enpoint to look for HR's credentials resulted in response 200 with empty body. This also confirmed the gobuster's `Size: 0` for that path. This could mean that the path might execute something on the server's side and does not show any output on the client side.
 
 However, we can try using the `/file.php` endpoint again to try fetch this content, since the previous response was `Only local files are allowed`.
 
@@ -135,7 +137,7 @@ This is a good progress. Now we know that we can use `file://` to grab server's 
 
 ![](../Image%20Trunk/Pasted%20image%2020261025214410.png)
 
-Well would you look at that! we got the hr's password as well as some other server's configuration info.
+Well would you look at that! we got the hr's password as well as some other server's configuration info. As for the reason why `/etc/hostname` resulted in access denied, I don't really know. The best guess for me is that it might be validating against an allowlisted directory prefix. Don't really need to chase this further for this challenge as well.
 
 Logging in as `hr` redirect us to `/dashboard.php`:
 
@@ -229,4 +231,15 @@ Found it! All that's left to do is to use it to log in:
 
 ![](../Image%20Trunk/Pasted%20image%2020261025222539.png)
 
-Aaaaand, we're in!
+Aaaaand, we got the last flag!
+
+## Root Causes and Remediation
+This website falls under the classic vulnerabilities of:
+- SSRF + arbitrary local file read
+- Credentials stored in plaintext
+- SQL Injection
+
+Some of the things that could be use as remediations include:
+- Enforcing allowlist (not blocklist) for local file read
+- Never store credentials in plaintext
+- Sanitize SQL queries
