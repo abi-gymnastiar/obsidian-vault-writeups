@@ -4,21 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "ee60b00992beb318",
+        "id": "3679b08020172099",
         "type": "tabs",
         "children": [
           {
-            "id": "c00fdb34ae2b3e94",
+            "id": "a5c8d143282f7baf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF Writeups/Writeup TryHackMe - Bounty Hacker.md",
+                "file": "CTF Writeups/Writeup TryHackMe - Recruit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Writeup TryHackMe - Bounty Hacker"
+              "title": "Writeup TryHackMe - Recruit"
+            }
+          },
+          {
+            "id": "3af5108ffd30d0ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Red/SQL Injection.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQL Injection"
+            }
+          },
+          {
+            "id": "74a3fd1e86e6d3b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Red/Active Reconnaissance.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Active Reconnaissance"
             }
           }
         ]
@@ -196,44 +224,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c00fdb34ae2b3e94",
+  "active": "a5c8d143282f7baf",
   "lastOpenFiles": [
-    "Image Trunk/Pasted image 20261022003819.png",
-    "Image Trunk/Pasted image 20261022003656.png",
-    "Image Trunk/Pasted image 20261021235601.png",
-    "Image Trunk/Pasted image 20261021234219.png",
-    "Image Trunk/Pasted image 20261021232620.png",
-    "Image Trunk/Pasted image 20261021231333.png",
-    "Untitled.md",
-    "CTF Writeups/Writeup TryHackMe - Bounty Hacker.md",
-    "Image Trunk/Pasted image 20261021231159.png",
-    "CTF Writeups/Writeup TryHackMe - TryHack3M Brick Heist.md",
-    "Image Trunk/Pasted image 20261021230217.png",
-    "Image Trunk/Pasted image 20261021225312.png",
-    "Image Trunk/Pasted image 20261021224626.png",
-    "Image Trunk/Pasted image 20261021224608.png",
+    "Image Trunk/Pasted image 20261025222539.png",
+    "Image Trunk/Pasted image 20261025221901.png",
+    "CTF Writeups/Writeup TryHackMe - Recruit.md",
+    "Red/Active Reconnaissance.md",
+    "Red/SQL Injection.md",
+    "Image Trunk/Pasted image 20261025221505.png",
     "CTF Writeups/Writeup TryHackMe - Simple CTF.md",
+    "CTF Writeups/Writeup TryHackMe - TryHack3M Brick Heist.md",
+    "Red/SSRF.md",
+    "Image Trunk/Pasted image 20261025214557.png",
+    "Image Trunk/Pasted image 20261025214410.png",
+    "Image Trunk/Pasted image 20261025214118.png",
+    "Image Trunk/Pasted image 20261025204036.png",
+    "Red/XSS.md",
+    "Image Trunk/Pasted image 20261025200522.png",
+    "Image Trunk/Pasted image 20261025172408.png",
+    "Red/Sniffing Attack.md",
+    "CSRF.md",
     "Welcome.md",
+    "Writeup TryHackMe - Jason (Not Completed yet).md",
+    "Image Trunk/Pasted image 20261022232457.png",
+    "Image Trunk/Pasted image 20261022232336.png",
+    "CTF Writeups/Writeup TryHackMe - Whats Your Name?.md",
+    "CTF Writeups/Writeup TryHackMe - Neighbour.md",
+    "CTF Writeups/Writeup TryHackMe - Bounty Hacker.md",
     "Red/OSINT.md",
     "Red/Passive Reconnaissance.md",
-    "Red/Sniffing Attack.md",
     "OSINT - Search Engines & Web Tools.md",
     "Red/Nmap.md",
     "Red/Man in The Middle (MITM) Attack.md",
     "Red/Password Attack.md",
     "Red/THM - Guided Pentest/Pentest - Web.md",
     "Cyber Security - Practice/Practice  - OpenVAS.md",
-    "Red/Active Reconnaissance.md",
     "CTF Writeups/Writeup TryHackMe - Ninja Skills.md",
-    "CTF Writeups/Writeup TryHackMe - Neighbour.md",
     "CTF Writeups/Writeup TryHackMe - Basic Pentesting.md",
     "CTF Writeups/Writeup TryHackMe - Fools Mate.md",
-    "CTF Writeups/Writeup TryHackMe - Whats Your Name?.md",
-    "Red/Pentesting Frameworks.md",
-    "Cyber Security/Security Principles/CIA & DAD Triads.md",
-    "Cyber Security/Security Principles/OWASP Top 10 2025.md",
-    "Cyber Security/Security Principles/Zero Trust vs. Trust but Verify.md",
-    "Cyber Security/Security Principles/Security Models - Fundamental Concepts.md",
     "Red/THM - Guided Pentest",
     "file:/home/jimi/Downloads/Abiansyah-Gymnastiar_resume_2026.pdf",
     "file:/home/jimi/Projects/portfolio/api/media/resume.pdf",
