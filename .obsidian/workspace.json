@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF Writeups/Writeup TryHackMe - Support.md",
+                "file": "CTF Writeups/Writeup TryHackMe - Support (in progress).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Writeup TryHackMe - Support"
+              "title": "Writeup TryHackMe - Support (in progress)"
             }
           },
           {
@@ -318,7 +318,7 @@
     "CTF Writeups/Writeup PicoCTF - Old Sessions.md",
     "CTF Writeups/Writeup PicoCTF - Quizploit.md",
     "Red/File Inclusion.md",
-    "CTF Writeups/Writeup TryHackMe - Support.md",
+    "CTF Writeups/Writeup TryHackMe - Support (in progress).md",
     "Red/THM - Guided Pentest/Pentest - Web.md",
     "Red/Command Injection.md",
     "Red/Broken Authentication.md",
