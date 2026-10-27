@@ -78,17 +78,31 @@
             }
           },
           {
-            "id": "3af5108ffd30d0ec",
+            "id": "29171b402850ca97",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red/SQL Injection.md",
+                "file": "Red/Command Injection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL Injection"
+              "title": "Command Injection"
+            }
+          },
+          {
+            "id": "fc5b6d8db891c842",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Red/THM - Guided Pentest/Pentest - API.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pentest - API"
             }
           },
           {
@@ -97,16 +111,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red/Active Reconnaissance.md",
+                "file": "CTF Writeups/Writeup TryHackMe - Support.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Active Reconnaissance"
+              "title": "Writeup TryHackMe - Support"
+            }
+          },
+          {
+            "id": "2c1a0dde173c5ae8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF Writeups/Writeup TryHackMe - Support.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Writeup TryHackMe - Support"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -140,7 +168,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "reverse shell",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -281,44 +309,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a584203bc73044eb",
+  "active": "74a3fd1e86e6d3b3",
   "lastOpenFiles": [
-    "Red/Broken Authentication.md",
-    "Red/File Inclusion.md",
-    "Red/Session Management.md",
-    "Red/Pentesting Frameworks.md",
-    "Red/XSS.md",
+    "CTF Writeups/Writeup TryHackMe - Ninja Skills.md",
     "CTF Writeups/Writeup TryHackMe - Recruit.md",
     "CTF Writeups/Writeup TryHackMe - Simple CTF.md",
     "CTF Writeups/Writeup TryHackMe - Whats Your Name?.md",
-    "CTF Writeups/Writeup TryHackMe - TryHack3M Brick Heist.md",
     "CTF Writeups/Writeup PicoCTF - Old Sessions.md",
-    "Image Trunk/Pasted image 20261025222539.png",
-    "Image Trunk/Pasted image 20261025221901.png",
+    "CTF Writeups/Writeup PicoCTF - Quizploit.md",
+    "Red/File Inclusion.md",
+    "CTF Writeups/Writeup TryHackMe - Support.md",
+    "Red/THM - Guided Pentest/Pentest - Web.md",
+    "Red/Command Injection.md",
+    "Red/Broken Authentication.md",
+    "Red/THM - Guided Pentest/Pentest - API.md",
+    "Image Trunk/Pasted image 20261028010737.png",
+    "Image Trunk/Pasted image 20261028010539.png",
+    "Image Trunk/Pasted image 20261028010145.png",
+    "Image Trunk/Pasted image 20261028004149.png",
+    "Image Trunk/Pasted image 20261028003954.png",
+    "Image Trunk/Pasted image 20261028004028.png",
     "Red/Active Reconnaissance.md",
     "Red/SQL Injection.md",
-    "Image Trunk/Pasted image 20261025221505.png",
+    "Image Trunk/Pasted image 20261028003849.png",
+    "Image Trunk/Pasted image 20261028003720.png",
+    "Image Trunk/Pasted image 20261028003000.png",
+    "Image Trunk/Pasted image 20261028002733.png",
+    "Red/Session Management.md",
+    "Red/Pentesting Frameworks.md",
+    "Red/XSS.md",
+    "CTF Writeups/Writeup TryHackMe - TryHack3M Brick Heist.md",
     "Red/SSRF.md",
-    "Image Trunk/Pasted image 20261025214557.png",
-    "Image Trunk/Pasted image 20261025214410.png",
-    "Image Trunk/Pasted image 20261025214118.png",
-    "Image Trunk/Pasted image 20261025204036.png",
-    "Image Trunk/Pasted image 20261025200522.png",
-    "Image Trunk/Pasted image 20261025172408.png",
     "Red/Sniffing Attack.md",
     "CSRF.md",
     "Welcome.md",
     "Writeup TryHackMe - Jason (Not Completed yet).md",
-    "Image Trunk/Pasted image 20261022232457.png",
     "CTF Writeups/Writeup TryHackMe - Neighbour.md",
     "CTF Writeups/Writeup TryHackMe - Bounty Hacker.md",
     "Red/OSINT.md",
-    "Red/Passive Reconnaissance.md",
-    "OSINT - Search Engines & Web Tools.md",
-    "Red/Nmap.md",
-    "Red/Man in The Middle (MITM) Attack.md",
-    "Red/Password Attack.md",
-    "Red/THM - Guided Pentest/Pentest - Web.md",
     "Red/THM - Guided Pentest",
     "file:/home/jimi/Downloads/Abiansyah-Gymnastiar_resume_2026.pdf",
     "file:/home/jimi/Projects/portfolio/api/media/resume.pdf",
