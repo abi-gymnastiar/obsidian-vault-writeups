@@ -70,7 +70,7 @@ Using the configuration above, I started the attack using "Sniper attack" mode. 
 
 ![](../Image%20Trunk/Pasted%20image%2020261028003000.png)
 
-## Lateral movement
+## Path Traversal - Arbitrary File Read
 
 There seems like not much we can do here other than logout and changing theme.
 
@@ -89,6 +89,8 @@ Now if we check the directory lising at `/skins`, we can see that the themes are
 Now we could actually guess that the `/dashboard.php?skin=red` is actually being processed to lookup these files. Next, I tried to use some sort of path traversal methods to exploit this file inclusions.
 
 Trying out `../../../etc/passwd%00` and other similar values resulted in nothing being output-ed in the response. I'll hold this for now and look into other stuff.
+
+`important note: '%00' trick only works on php version < 5.3.4.`
 
 Another important thing I found is that we actually stored a cookie `isITUser=68934a3e9455fa72420237eb05902327` alongside the usual `PHPSESSID`. Using https://crackstation.net/ we got our actual value `false`:
 
@@ -116,4 +118,89 @@ We don't have the password yet though. So next thing to do is to fire up *Intrud
 
 BurpSuite too slow, switched to hydra. Still no luck after 3000+ passwords. Seems like it is not a weak password.
 
-TBC.
+Next, I went back to the previous **LFI** exploit attempts. Using BurpSuite's *Repeater*, I tried the other `.php` files that I can access thru the directory listing and enumeration.
+
+`config.php` is a very interesting file. Upon using `../config` as the skin parameter, we actually get an interesting variable, `$MASTER_PASSWORD = 'support@110';`
+
+![](../Image%20Trunk/Pasted%20image%2020261028193846.png)
+
+`Important note: the actual master password is 'support110' without the '@' character. The room's creator made a mistake`.
+
+Using the previously fetched `specialadmin@support.thm` email, I tried logging in with the master password. This resulted in a successful login and a different look on the `/dashboard.php` page, now including the first flag.
+
+![](../Image%20Trunk/Pasted%20image%2020261028194235.png)
+
+## RCE
+Another very interesting difference within the admin's version of `/dashboard.php` is the new `Date` drop down besides theme selector. Upon selecting `Date` from the new drop down, a POST request was created, and an output was printed on the page:
+
+```
+POST /dashboard.php HTTP/1.1
+Host: 10.67.174.234
+Content-Length: 8
+Cache-Control: max-age=0
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+Origin: http://10.67.174.234
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://10.67.174.234/dashboard.php
+Accept-Encoding: gzip, deflate, br
+Cookie: PHPSESSID=pte4vt1ikvitnm6uhn4quv7ip7; isITUser=b326b5062b2f0e69046810717534cb09
+Connection: keep-alive
+
+sys=date
+```
+
+![](../Image%20Trunk/Pasted%20image%2020261028194646.png)
+
+Interestingly, if we actually try to do the previous path traversal into the `footer.php` using `?skin=../footer.php`, we get an interesting code snippets:
+
+```php
+<?php
+$isAdmin = $_SESSION['admin'];
+
+$output = '';
+$error  = '';
+
+
+$selectedSys = 'date';
+
+if ($isAdmin && $_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['sys'])) {
+
+    $selectedSys = $_POST['sys'];
+    $sys = $_POST['sys'];
+
+
+    if (strpos($sys, 'date') === 0) {
+        $output = shell_exec($sys); 
+    } else {
+        $error = 'Only date command is allowed.';
+    }
+}
+?>
+```
+
+This logic is vulnerable to a **command injection**, by just appending `; <system command>;` int the `sys` body parameters. This works because the code just accept the value as long as it has the string `date` in them.
+
+Trying `date; cat /etc/passwd;` resulted in the actual content being spat out into the output:
+
+![](../Image%20Trunk/Pasted%20image%2020261028195010.png)
+
+Lastly, since we know the last flag's file path (`/home/ubuntu/user.txt`), we can just change `/etc/passwd` into `/home/ubuntu/user.txt` and we get the flag!
+
+![](../Image%20Trunk/Pasted%20image%2020261028195249.png)
+
+## Root Causes and Remediation
+These exploits are possible because of the existance of the following vulnerabilities:
+- **Broken Authentication**: Lack of rate limiting, combined with a weak password.
+- **Broken Object Level Authorization (BOLA):** Being able to access other user's information by simply enumerating `GET /user/{id}` API.
+- **Path Traversal (Arbitrary File Read):** Lack of proper allowlist for the skin parameter, combined with a validation check that only confirms the resolved path starts within the webroot rather than restricting it to the intended skins/ directory, allows reading arbitrary .php source files on the server.
+- **Remote Code Execution:** Weak input sanitasion on `sys` body parameter inside `POST /dashboard.php` leads to user being able to execute system commands.
+
+Some of the remediation that should be implemented:
+- Implement rate limiting on login request.
+- Enforce a strong password combinations.
+- Implement proper authorisation on APIs.
+- Implement proper allowlist for `skin` parameter.
+- Implement proper input sanitasion on user's parameter request inputs.
