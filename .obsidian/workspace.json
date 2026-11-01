@@ -153,16 +153,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red/Phising.md",
+                "file": "CTF Writeups/Writeup TryHackMe - Recruit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Phising"
+              "title": "Writeup TryHackMe - Recruit"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -337,10 +337,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9d8d339432583ef5",
+  "active": "f206e6fbadf6182f",
   "lastOpenFiles": [
     "Untitled.md",
     "Red/Phising.md",
+    "CTF Writeups/Writeup TryHackMe - Recruit.md",
+    "CTF Writeups/Writeup TryHackMe - TryHack3M Brick Heist.md",
+    "CTF Writeups/Writeup TryHackMe - Fools Mate.md",
+    "CTF Writeups/Writeup PicoCTF - SUDO MAKE ME A SANDWICH.md",
+    "Red/SQL Injection.md",
     "Red/Session Management.md",
     "CTF Writeups/Writeup TryHackMe - Support.md",
     "Image Trunk/Pasted image 20261028201654.png",
@@ -354,7 +359,6 @@
     "Image Trunk/Pasted image 20261028193846.png",
     "Image Trunk/Pasted image 20261028193842.png",
     "CTF Writeups/Writeup TryHackMe - Ninja Skills.md",
-    "CTF Writeups/Writeup TryHackMe - Recruit.md",
     "CTF Writeups/Writeup TryHackMe - Simple CTF.md",
     "CTF Writeups/Writeup TryHackMe - Whats Your Name?.md",
     "CTF Writeups/Writeup PicoCTF - Old Sessions.md",
@@ -367,14 +371,10 @@
     "Image Trunk/Pasted image 20261028010539.png",
     "Image Trunk/Pasted image 20261028010145.png",
     "Red/Active Reconnaissance.md",
-    "Red/SQL Injection.md",
     "Red/Pentesting Frameworks.md",
     "Red/XSS.md",
-    "CTF Writeups/Writeup TryHackMe - TryHack3M Brick Heist.md",
     "Red/SSRF.md",
     "CSRF.md",
-    "Welcome.md",
-    "Writeup TryHackMe - Jason (Not Completed yet).md",
     "Red/THM - Guided Pentest",
     "file:/home/jimi/Downloads/Abiansyah-Gymnastiar_resume_2026.pdf",
     "file:/home/jimi/Projects/portfolio/api/media/resume.pdf",
