@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red/Phising.md",
+                "file": "Red/XSS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Phising"
+              "title": "XSS"
             }
           },
           {
@@ -153,16 +153,56 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF Writeups/Writeup TryHackMe - Recruit.md",
+                "file": "Cyber Security/Defense/Security Solutions/Vulnaribility Scanner.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Writeup TryHackMe - Recruit"
+              "title": "Vulnaribility Scanner"
+            }
+          },
+          {
+            "id": "b124144f1415249b",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Image Trunk/Pasted image 20261107234743.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20261107234743"
+            }
+          },
+          {
+            "id": "315dce9bc316567e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "live-notes/guild.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "guild"
+            }
+          },
+          {
+            "id": "67b6ac34ec083184",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "jailbreak.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "jailbreak"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -196,7 +236,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "reverse shell",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -337,44 +377,45 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f206e6fbadf6182f",
+  "active": "67b6ac34ec083184",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Red/Phising.md",
+    "live-notes/guild.md",
+    "jailbreak.md",
+    "Red/SSRF.md",
+    "file:/home/jimi/.config/spicetify/Themes/THEMES.md",
+    "file:/home/jimi/.config/spicetify/CustomApps/marketplace/README.md",
+    "Red/XSS.md",
+    "Image Trunk/Pasted image 20261108000121.png",
+    "Image Trunk/Pasted image 20261107235644.png",
+    "Image Trunk/Pasted image 20261107235638.png",
     "CTF Writeups/Writeup TryHackMe - Recruit.md",
+    "Image Trunk/Pasted image 20261107235543.png",
+    "Image Trunk/Pasted image 20261107234743.png",
+    "Image Trunk/Pasted image 20261107232726.png",
+    "live-notes/flag command.md",
+    "Red/Broken Authentication.md",
+    "Image Trunk/Pasted image 20261107232505.png",
+    "live-notes",
+    "Cyber Security/Defense/Security Solutions/Vulnaribility Scanner.md",
+    "Cyber Security/Defense/Security Solutions/SIEM.md",
+    "Wordlists - Custom Wordlist.md",
+    "Welcome.md",
+    "Red/Password Attack.md",
+    "Red/Sniffing Attack.md",
+    "Red/SQL Injection.md",
+    "Red/Session Management.md",
+    "Red/Reverse Shells.md",
+    "Red/Pentesting Frameworks.md",
+    "Red/Penetration Testing.md",
+    "Red/Cyber Kill Chain.md",
+    "Red/Cipher.md",
+    "Red/Phising.md",
     "CTF Writeups/Writeup TryHackMe - TryHack3M Brick Heist.md",
     "CTF Writeups/Writeup TryHackMe - Fools Mate.md",
     "CTF Writeups/Writeup PicoCTF - SUDO MAKE ME A SANDWICH.md",
-    "Red/SQL Injection.md",
-    "Red/Session Management.md",
-    "CTF Writeups/Writeup TryHackMe - Support.md",
     "Image Trunk/Pasted image 20261028201654.png",
-    "Red/THM - Guided Pentest/Pentest - API.md",
-    "Red/Sniffing Attack.md",
-    "Red/Reverse Shells.md",
     "Image Trunk/Pasted image 20261028195249.png",
     "Image Trunk/Pasted image 20261028195010.png",
-    "Image Trunk/Pasted image 20261028194646.png",
-    "Image Trunk/Pasted image 20261028194235.png",
-    "Image Trunk/Pasted image 20261028193846.png",
-    "Image Trunk/Pasted image 20261028193842.png",
-    "CTF Writeups/Writeup TryHackMe - Ninja Skills.md",
-    "CTF Writeups/Writeup TryHackMe - Simple CTF.md",
-    "CTF Writeups/Writeup TryHackMe - Whats Your Name?.md",
-    "CTF Writeups/Writeup PicoCTF - Old Sessions.md",
-    "CTF Writeups/Writeup PicoCTF - Quizploit.md",
-    "Red/File Inclusion.md",
-    "Red/THM - Guided Pentest/Pentest - Web.md",
-    "Red/Command Injection.md",
-    "Red/Broken Authentication.md",
-    "Image Trunk/Pasted image 20261028010737.png",
-    "Image Trunk/Pasted image 20261028010539.png",
-    "Image Trunk/Pasted image 20261028010145.png",
-    "Red/Active Reconnaissance.md",
-    "Red/Pentesting Frameworks.md",
-    "Red/XSS.md",
-    "Red/SSRF.md",
-    "CSRF.md",
     "Red/THM - Guided Pentest",
     "file:/home/jimi/Downloads/Abiansyah-Gymnastiar_resume_2026.pdf",
     "file:/home/jimi/Projects/portfolio/api/media/resume.pdf",
@@ -383,7 +424,6 @@
     "CTF Writeups",
     "Red",
     "Cyber Security/Security Principles",
-    "Image Trunk",
-    "Cyber Security - Practice"
+    "Image Trunk"
   ]
 }
