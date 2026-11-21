@@ -161,7 +161,7 @@ DB_PASSWORD=SuperDuperPass123
 I also got the admin credentials from the environment file. And ssh with that is valid. First flag is `/home/admin/user.txt`.
 
 ## Privilege Escalation ft. linpeas
-Next, using scp, I uploaded `linpeas.sh` into admin's home directory and running it from there.
+I'll be using a program called `linpeas` from https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS to scan possible vulnerabilities for PE. Using scp, I uploaded `linpeas.sh` into admin's home directory and running it from there.
 
 ![](../Image%20Trunk/Pasted%20image%2020261121214649.png)
 
